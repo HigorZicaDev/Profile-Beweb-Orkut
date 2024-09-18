@@ -336,7 +336,6 @@
 
   .descrica-lista-2 {
     display: flex;
-    gap: 20px;
     @include d(t) {
       gap: 15px;
     }
@@ -372,6 +371,7 @@
 // DESCRIÇÃO INFORMAÇÕES
 
 .descricao-informacoes {
+  display: flex;
   h2 {
     margin-top: 5px;
     background-color: $header-perfil;

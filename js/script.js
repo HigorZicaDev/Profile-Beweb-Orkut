@@ -16,3 +16,23 @@ function logando(event) {
 if (formLogin) {
   formLogin.addEventListener("submit", logando);
 }
+
+$("#tabs").tabs();
+
+$(".tab-ul li").on("click",function(e){
+
+  $(".tab-ul li").removeClass("selected");
+  $(this).removeClass("selected");
+  $(this).addClass("selected");
+
+});
+
+$( function() {
+  $( "#button_env_ami" ).on( "click", function(event) {
+    event.preventDefault();
+    $( "#dialog" ).dialog({
+      height: 200,
+      width: 400
+    });
+  });
+} );
