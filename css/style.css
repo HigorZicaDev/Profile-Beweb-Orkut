@@ -224,6 +224,7 @@ button {
   flex-direction: column;
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-right: 5%;
 }
 
 @media ((min-width: 1200px)) {
@@ -432,7 +433,6 @@ button {
   color: white;
   font-weight: bold;
   border-radius: 20px;
-  width: 150px;
   margin: auto;
   margin-top: 15%;
   text-align: center;

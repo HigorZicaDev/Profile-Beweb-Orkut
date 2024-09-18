@@ -1,14 +1,14 @@
 Voici un exemple de fichier `README.md` en markdown pour votre projet clone du réseau social Orkut :
 
 ```markdown
-# Orkut Clone
+# Orkut Reseaux Clone
 
 Ce projet est un clone simplifié de l'ancien réseau social Orkut. Il comporte deux pages principales : une page de connexion (`index.html`) et une page de profil (`profile.html`). Le projet utilise **HTML** et **SCSS** pour la mise en page et le style.
 
 ## Fonctionnalités
 
 - **Page de connexion (index.html)** : Permet aux utilisateurs de se connecter via un formulaire de login.
-- **Page de profil (profile.html)** : Affiche les informations du profil utilisateur après la connexion.
+- **Page de profil (perfil.html)** : Affiche les informations du profil utilisateur après la connexion.
 
 ## Technologies utilisées
 
@@ -32,13 +32,13 @@ Ce projet est un clone simplifié de l'ancien réseau social Orkut. Il comporte 
 1. Clonez le dépôt sur votre machine locale :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/orkut-clone.git
+   git clone https://github.com/HigorZicaDev/Profile-Beweb-Orkut
    ```
 
 2. Accédez au dossier du projet :
 
    ```bash
-   cd orkut-clone
+   cd Profile-Beweb-Orkut
    ```
 
 3. Ouvrez la page `index.html` dans votre navigateur :
@@ -51,7 +51,7 @@ Ce projet est un clone simplifié de l'ancien réseau social Orkut. Il comporte 
 
 1. Ouvrez la page de connexion (`index.html`).
 2. Entrez vos informations d'utilisateur et cliquez sur le bouton **Login**.
-3. Après une connexion réussie, vous serez redirigé vers la page de profil (`profile.html`), qui affichera les informations de l'utilisateur.
+3. Après une connexion réussie, vous serez redirigé vers la page de profil (`perfil.html`), qui affichera les informations de l'utilisateur.
 
 ## Styles
 
@@ -68,11 +68,10 @@ Les styles sont écrits en **SCSS** et sont compilés en **CSS**. Pour modifier 
 
 ## Auteur
 
-- **Votre Nom** - Développeur
+- **Higor Zica** - Développeur
 
 ## License
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 ```
 
 Ce fichier présente les principales fonctionnalités du projet, les technologies utilisées et donne des instructions d'installation et d'utilisation. Vous pouvez l'adapter selon les besoins spécifiques de votre projet.
