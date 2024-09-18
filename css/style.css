@@ -1160,3 +1160,7 @@ button {
 .show_msg_ami{
   display: flex;
 }
+
+.ui-tabs .ui-tabs-nav {
+  border-radius: 5px;
+}
