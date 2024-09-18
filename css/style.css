@@ -694,7 +694,7 @@ button {
 .dados {
   margin-top: 100px;
   width: 100%;
-  max-height: 80vh;
+  max-height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -791,16 +791,15 @@ button {
 
 .descricao {
   padding: 10px 15px;
-  border-radius: 5px 60px 5px 60px;
+  border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   margin-top: 100px;
-  height: 100vh;
   background-color: white;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .descricao {
-    height: 95%;
+    height: 100%;
   }
 }
 
@@ -818,6 +817,7 @@ button {
   color: #494949;
   margin-bottom: 20px;
   padding-left: 10px;
+  margin-top: 10px;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -1151,4 +1151,12 @@ button {
 #toggle:checked + .checkbox .trace:nth-child(3) {
   transform: rotate(-45deg);
   top: 48px;
+}
+
+.msg_demande_ami{
+  display: none;
+}
+
+.show_msg_ami{
+  display: flex;
 }

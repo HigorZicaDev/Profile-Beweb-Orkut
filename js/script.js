@@ -32,7 +32,8 @@ $( function() {
     event.preventDefault();
     $( "#dialog" ).dialog({
       height: 200,
-      width: 400
+      width: 400,
     });
+    $( "#msg_demande_ami" ).toggleClass( "show_msg_ami")
   });
 } );
